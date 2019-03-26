@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:src="@drawable/musicplaylistlogo"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/desc"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+        >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"
+            android:layout_marginBottom="5sp"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:textColorHint="#D8CFCF"
+            android:drawableStart="@drawable/usernamelogo"
+            android:background="#FDFDFD"
+            />
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:textColorHint="#D8CFCF"
+            android:drawableStart="@drawable/passwordlogo"
+            android:background="#FDFDFD"
+            />
+
+        <CheckBox
+            android:id="@+id/rememberme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:buttonTint="#FFFFFF"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="@string/checkbox"
+            android:textColor="#fff"
+            android:textColorHighlight="#FFFFFF"
+            tools:visibility="visible" />
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="@string/login"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="10sp"
+            android:clickable="true"
+            android:layout_marginTop="24sp"
+            android:focusable="true"
+
+            />
+        <Button
+            android:id="@+id/signupbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="Sign Up"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="10sp"
+            android:clickable="true"
+            android:layout_marginTop="20sp"
+            android:focusable="true"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user_profile"
+            android:title="@string/profile"
+            />
+        <item
+            android:id="@+id/nav_allplaylist"
+            android:icon="@drawable/all_playlist"
+            android:title="@string/allplaylist" />
+        <item
+            android:id="@+id/nav_allmusic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/allmusic" />
+        <item
+            android:id="@+id/nav_singlemusic"
+            android:icon="@drawable/single_music"
+            android:title="@string/singlemusic"/>
+    </group>
+
+
+
+</menu>

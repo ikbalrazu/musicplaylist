@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">musicplaylist</string>
+    <string name="desc">Image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="checkbox">Remember me</string>
+    <string name="login">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="allplaylist">All Playlist</string>
+    <string name="allmusic">All Music</string>
+    <string name="singlemusic">Single Music</string>
+</resources>
